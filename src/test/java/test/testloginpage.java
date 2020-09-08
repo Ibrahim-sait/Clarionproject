@@ -69,8 +69,6 @@ public class testloginpage  {
 		sp.searchbtn().click();
 		System.out.println(sp.verifypromise("Ibrahim Promise: Sonali test is Selected"));
 		Assert.assertTrue(sp.verifypromise("Ibrahim Promise: Sonali test is Selected"));
-		
-		
 	}
 
 	@Test(priority=5)
